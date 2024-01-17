@@ -25,26 +25,20 @@ GHOLink leverages the power of the GHO token and Lens Protocol to offer a seamle
 
 ## Getting started
 
-1. Clone repo
-
-```sh
-git clone git@github.com:dabit3/lens-pwa.git
-```
-
-2. Install dependencies
+1. Install dependencies
 
 ```sh
 npm install # or yarn, etc..
 ```
 
-3. Configure environment variables for WalletConnect
+2. Configure environment variables for WalletConnect
 
 ```sh
 # rename .example.env.local to .env.local 
 NEXT_PUBLIC_WC_ID=
 ```
 
-4. Run the app
+3. Run the app
 
 ```sh
 npm run dev
